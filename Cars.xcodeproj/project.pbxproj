@@ -19,8 +19,8 @@
 		9537E1FA2129FA5300802D6E /* cars.json in Resources */ = {isa = PBXBuildFile; fileRef = 9537E1F92129FA5300802D6E /* cars.json */; };
 		9537E1FC212A7F8D00802D6E /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537E1FB212A7F8D00802D6E /* Owner.swift */; };
 		9537E1FE212BE7E700802D6E /* StoredCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537E1FD212BE7E700802D6E /* StoredCar.swift */; };
-		9537E200212BEDE400802D6E /* OwnerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9537E1FF212BEDE300802D6E /* OwnerView.xib */; };
-		9537E202212BEDEE00802D6E /* OwnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537E201212BEDEE00802D6E /* OwnerView.swift */; };
+		9537E210212BFCD100802D6E /* OwnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537E20F212BFCD100802D6E /* OwnerView.swift */; };
+		9537E212212BFCD900802D6E /* OwnerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9537E211212BFCD800802D6E /* OwnerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +38,8 @@
 		9537E1F92129FA5300802D6E /* cars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cars.json; sourceTree = "<group>"; };
 		9537E1FB212A7F8D00802D6E /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 		9537E1FD212BE7E700802D6E /* StoredCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredCar.swift; sourceTree = "<group>"; };
-		9537E1FF212BEDE300802D6E /* OwnerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OwnerView.xib; path = ../../../../../cwtools/CWTools/Views/SaveButtonView/OwnerView.xib; sourceTree = "<group>"; };
-		9537E201212BEDEE00802D6E /* OwnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerView.swift; path = ../../../../../cwtools/CWTools/Views/SaveButtonView/OwnerView.swift; sourceTree = "<group>"; };
+		9537E20F212BFCD100802D6E /* OwnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnerView.swift; sourceTree = "<group>"; };
+		9537E211212BFCD800802D6E /* OwnerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OwnerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		95225E6821275C18003AE81A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9537E1FF212BEDE300802D6E /* OwnerView.xib */,
+				9537E211212BFCD800802D6E /* OwnerView.xib */,
 				95225E6921275C18003AE81A /* LaunchScreen.storyboard */,
 				95225E6A21275C18003AE81A /* Main.storyboard */,
 			);
@@ -105,7 +105,7 @@
 		95225E6F21275C18003AE81A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9537E201212BEDEE00802D6E /* OwnerView.swift */,
+				9537E20F212BFCD100802D6E /* OwnerView.swift */,
 				95225E7321275C18003AE81A /* Car.swift */,
 				95225E7021275C18003AE81A /* CarCell.swift */,
 				95225E7121275C18003AE81A /* Cars.xcdatamodeld */,
@@ -181,9 +181,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9537E212212BFCD900802D6E /* OwnerView.xib in Resources */,
 				95225E7921275C18003AE81A /* Main.storyboard in Resources */,
 				9537E1FA2129FA5300802D6E /* cars.json in Resources */,
-				9537E200212BEDE400802D6E /* OwnerView.xib in Resources */,
 				95225E4A21248A5E003AE81A /* Assets.xcassets in Resources */,
 				95225E7821275C18003AE81A /* LaunchScreen.storyboard in Resources */,
 			);
@@ -199,9 +199,9 @@
 				9537E1FE212BE7E700802D6E /* StoredCar.swift in Sources */,
 				95225E7D21275C18003AE81A /* CarCell.swift in Sources */,
 				95225E7E21275C18003AE81A /* Cars.xcdatamodeld in Sources */,
-				9537E202212BEDEE00802D6E /* OwnerView.swift in Sources */,
 				95225E7F21275C18003AE81A /* Car.swift in Sources */,
 				95225E7B21275C18003AE81A /* CarsListViewController.swift in Sources */,
+				9537E210212BFCD100802D6E /* OwnerView.swift in Sources */,
 				95225E4021248A5B003AE81A /* AppDelegate.swift in Sources */,
 				9537E1FC212A7F8D00802D6E /* Owner.swift in Sources */,
 				95225E8021275C18003AE81A /* CDPersistence.swift in Sources */,
